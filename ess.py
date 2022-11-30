@@ -1,8 +1,6 @@
-import application as app
-from tkinter import *
+import application1 as app
 
-f = Tk()
-ap = app(f)
-ap.create()
+ap = app.application()
+ap.personalise()
 ap.add_menu()
-ap.affichage()
+ap.affiche()
